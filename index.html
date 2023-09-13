@@ -2,51 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
-    <meta author="Nazarena Winkler">
+    <meta name="author" content="Nazarena Winkler" >
+    <meta name="descripcion" content="">
+    <meta name="keywords" content="verduras,naturaleza,plantaciones,mantenimiento">
+    <meta name="viewport" content="width=device-width, initial-scale=1. 0">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--Titulo-->
+    <title>Huerta Creciendo Juntos | Desarrollo Web Front-End</title>
+    <!--icono-->
+    <link rel="icon" type="image/x-icon" href="">
+
+    <!--Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="estilo.css">
+    <!-- Iconos de Boostrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <title>Huerta Creciendo Juntos</title>
 </head>
 <body>
+  <i class="bi bi-box-arrow-in-right"></i>
+
+
     <header>
-        <h1 class="huerta">Huerta Creciendo Juntos</h1>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Barra de navegacion</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="actividades.html">Actividdaes que Realizan</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+              <img src="" width="50" alt="Logo de la pagina web">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Actividades que realizan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Productos en venta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-disabled="true">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
 
     </header>
     <main>
-        <section>
-            <article></article>
-            <article></article>
+      <!--Sección Hero-->
+        <section class="hero align-items-stretch ">
+            <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+              <img class="hero-imagen-desarrollador" src="imagenes/grupo.jpg" alt="Grupo de personas ">
+              <h1>Huerta Creciendo Juntos</h1>
+              <h2>Somos un grupo de personas,en la cual nos encargamos de plantar,mantener y vender verduras ecológicas.</h2>
+            </div>
         </section>
         <aside>
 
         </aside>
     </main>
 
-    <footer>
+    <footer class="pie pagina">
         <p>Huerta Creciendo Juntos</p>
 
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
