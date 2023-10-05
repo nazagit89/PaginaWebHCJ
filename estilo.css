@@ -45,7 +45,6 @@ Seccion hero*/
 }
 .hero-imagen-grupal{
     width: 200px;
-    height: 200px;
     border-radius: 50%;
     margin: 20px;
 }
@@ -109,15 +108,39 @@ i{
     padding: 25px 25px 25px 25px;
 }
 /* pagina verduras */
-.imagen{
-    width: 300px;
+.grid-container{
+    display: grid;
+    background-color: bisque;
 }
 .parrafo{
-    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:azure;
     text-align: center;
     font-size: 1.5em;
+    background-color: rgb(124, 70, 5);
 }
 .titulo{
     color: black;
     background-color: rgb(4, 157, 58);
 }
+.icono-redes-sociales a{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 5px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+/* index */
+.imagen{
+    width: 250px;
+    align-content: end;
+}
+.video{
+    color: white;
+    background-color: black;
+    text-align: start;
+}
+/* Plantaciones */

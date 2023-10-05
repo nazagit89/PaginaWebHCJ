@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-
+<!-- Barra de navegación -->
     <header>
         <nav class="navbar navbar-expand-md navbar-light">
           <div class="container-fluid">
@@ -66,28 +66,65 @@
     
     <br>
 
-    <h2>Diferentes tipos de verduras</h2>
+    <h2 class="texto-claro">Diferentes tipos de verduras</h2>
 
-    <div class="clearfix">
-      <img src="imagenes/cosecha-cebolla.jpg" class="imagen container col-md-6 float-md-end mb-3 ms-md-3" alt="cosecha de cebolla">
-    
-      <h2 class="titulo container">Consecha de cebolla</h2>
-      <p class="parrafo">
-        A fines del mes de septiembre,se realizó la consecha de cebolla blanca y como se observa en la foto se desarrollaron muy bien.
-      </p>
-    
-      <p>
-        As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
-      </p>
-    
-      <p>
-        And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
-      </p>
+    <div class="container px-4 text-center">
+      <div class="row gx-5">
+        <div class="col">
+         <div class="p-3">
+          <p class="texto-claro">Cebolla</p>
+          <img src="imagenes/cebolla.jpg" alt="" width="400px"></div>
+         </div>
+        <div class="col">
+          <div class="p-3">
+            <p class="texto-claro">Cebollita de verdeo</p>
+            <img src="imagenes/cebollitaverdeo.jpg" alt="" width="400px">
+          </div>
+        </div>
+      </div>
     </div>
 
-    <footer id="pie-pagina" class="justify-content-center contanier-fluid align-items-center">
-        <p class="texto-blanco">Huerta creciendo juntos <br> derechos reservados &copy; 2023</p>
-        
+    <div class="container px-4 text-center">
+      <div class="row gx-5">
+        <div class="col">
+         <div class="p-3">
+          <p class="texto-claro">Acelga y Perejil</p>
+          <img src="imagenes/perejilyacelga.jpg" alt="" width="400px">
+         </div>
+        </div>
+        <div class="col">
+          <div class="p-3">
+            <p class="texto-claro">Lechuga</p>
+            <img src="imagenes/lechuga.jpg"alt="" width="400px">
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="container px-4 text-center">
+      <div class="row gx-5">
+        <div class="col">
+         <div class="p-3">
+          <p class="texto-claro">Lechuga y Rucula</p>
+          <img src="imagenes/rucula_lechuga.jpg" alt="" width="400px">
+         </div>
+        </div>
+        <div class="col">
+          <div class="p-3">Custom column padding</div>
+        </div>
+      </div>
+    </div>
+      
+
+    <!-- Pie de página -->
+    <footer id="pie-pagina" class="justify-content-center align-items-center">
+      <p class="texto-blanco">Huerta creciendo juntos <br> derechos reservados &copy; 2023</p>
+      <div class="d-flex flex-wrap align-items-center justify-content-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+        </svg>
+
+      </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
