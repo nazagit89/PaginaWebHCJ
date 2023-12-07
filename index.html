@@ -62,7 +62,11 @@
                     <a class="nav-link active " href="verduras.html">Productos disponibles</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active " href="contacto.html">Contacto</a>
+                    <a class="nav-link active " href="contacto.html">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                      </svg>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -77,7 +81,7 @@
             <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
               <img class="hero-imagen-grupal rounded-circle" src="imagenes/grupo.jpg" alt="Grupo de personas ">
               <h1>Huerta Creciendo Juntos</h1>
-              <h2>Somos un grupo de personas,en la cual nos encargamos de plantar,mantener y vender verduras ecológicas.</h2>
+              <h2>Somos un grupo de personas, que nos encargamos de plantar, mantener y vender verduras ecológicas.</h2>
             </div>
             <div class="hero-inferior">
               <img class="hero-inferior-imagen imag-fluid" src="imagenes/grupo.jpg" alt="grupo de personas">
@@ -89,7 +93,11 @@
           <!--Sobre la asociacion-->
           <div class="contenedor">
             <h2 class="seccion-titulo texto-blanco">Conoce un poco de nosotros</h2>
-            <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo arcu sit amet elit pellentesque, sit amet scelerisque ligula aliquam. Nunc ut justo mauris. Etiam eu ullamcorper magna, sed imperdiet sem. Donec auctor felis vitae augue varius accumsan. Cras at nunc placerat, posuere magna iaculis, feugiat ante. Mauris pretium interdum consequat. Donec eget vestibulum mauris.</p>
+            <p class="seccion-texto">Somos una asociación llamada <b>Huerta Creciendo Juntos</b>, 
+              la cuál esta integrada por alrededor de 30 personas. Todos trabajamos en conjunto hace algunos años, 
+              en la plantación y venta de nuestras <b>verduras ecológicas</b>. Estás mismas son totalmente cosechadas por las 
+              personas que trabajamos en la Huerta y nos encargamos del <b>mantenimiento,plantación y cosecha</b> de las verduras.
+            </p>
 
           </div>
         </section>
@@ -97,17 +105,36 @@
         <!-- Sección cosecha de cebolla -->
         <section class="hero seccion-clara align-items-stretch">
           <div class="clearfix">
-            <img src="imagenes/cosecha-cebolla.jpg" class="imagen container col-md-6 float-md-end mb-3 ms-md-3" alt="cosecha de cebolla">
-          
-            <h2 class="texto-claro container">Consecha de cebolla</h2>
+            <img src="imagenes/cosecha-cebolla.jpg" 
+            class="imagen container col-md-6 float-md-end mb-3 ms-md-3" 
+            alt="cosecha de cebolla">
             <p class="parrafo container">
-              A fines del mes de septiembre,se realizó la consecha de cebolla blanca y como se observa en la foto se desarrollaron muy bien.
+            <h2 class="texto-claro container">Cosecha de cebolla</h2>
+            <video width="400px" height="300px" controls autoplay muted>
+              <source src="videos/cosechacebolla_video.mp4" type="video/mp4">
+
+            </video>
+            <p class="texto">
+              A fines del mes de septiembre,
+              se realizó la cosecha de cebolla blanca.
             </p>
-            <h3 class="video">Video de la cosecha de cebolla</h3>
-            <iframe src="videos/cosechacebolla_video.mp4" frameborder="0" width="350px" height="200px"></iframe>
-          
           </div>
         </section>  
+
+        <!-- Sección de venta de verduras -->
+        <section class="hero seccion-clara align-items-stretch">
+          <div class="clearfix">
+            <h2 class="texto-claro container">Noviembre de ventas</h2>
+            <video width="500px" height="300px" controls autoplay muted>
+              <source src="videos/ventaVerduras.mp4.crdownload" type="video/mp4">
+
+            </video>
+            <p class="texto">
+              Algunas de las verduras en venta, en el mes de noviembre.
+            </p>
+          </div>
+        </section>  
+
 
         
     </main>
@@ -124,6 +151,7 @@
   </div>
 </footer>
 
+<script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
